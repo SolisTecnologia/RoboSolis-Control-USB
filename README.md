@@ -22,7 +22,7 @@ Several programming languages can be used to connect via API.
 
 # Programming Example
 ## USB Control - [USB-Control.py](https://github.com/SolisTecnologia/SoBot-USB-Control/blob/master/USB_Control.py)
-Programming example to control the robot solis by a USB remote control
+Programming example to control the robot solis by a USB remote control.
 
 The Start button enables and disables robot movement.
 
@@ -50,6 +50,8 @@ The ''time'' library is needed to generate time delays and the ''serial'' librar
 The commands used in this example to control SoBot are continuous movement commands, as follows:
 
 ~~~python
+serialUSB.write(b"MT0 ME1")     # Enable continuous movement
+serialUSB.write(b"MT0 ME0")     # Disable continuous movement
 serialUSB.write(b"MT0 ML")      # Move left
 serialUSB.write(b"MT0 MR")      # Move right
 serialUSB.write(b"MT0 MB")      # Move backward
@@ -57,9 +59,11 @@ serialUSB.write(b"MT0 MF")      # Move Forward
 serialUSB.write(b"MT0 MP")      # Pause movement
 ~~~
 
-
 For more information about the commands used, check the Robot Commands Reference Guide.
 
+### Flowchart
+
+![](https://github.com/SolisTecnologia/SoBot-USB-Control/blob/master/png/Flowchart_USB_Control.png)
 
 # Reference Link
 [SolisTecnologia website](https://solistecnologia.com/produtos/robotsingle)
