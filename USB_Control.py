@@ -1,3 +1,14 @@
+#!/usr/bin/python3
+"""
+Solis Robot - SoBot
+
+USB_Control.py: Programming example to control the robot solis by a USB remote control.
+
+Created By   : Vinicius M. Kawakami
+Version      : 1.0
+
+Company: Solis Tecnologia
+"""
 import usb.core
 import usb.util
 from time import sleep
