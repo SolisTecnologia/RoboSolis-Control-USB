@@ -21,7 +21,7 @@ Several programming languages can be used to connect via API.
 * USB control  <img align="center" height="40" width="40" src="https://github.com/SolisTecnologia/SoBot-USB-Control/blob/master/png/control.png">
 
 # Programming Example
-## USB Control - [USB-Control.py](https://github.com/SolisTecnologia/SoBot-USB-Control/blob/master/USB_Control.py)
+## USB Control - [USB_Control.py](https://github.com/SolisTecnologia/SoBot-USB-Control/blob/master/USB_Control.py)
 Programming example to control the robot solis by a USB remote control.
 
 The Start button enables and disables robot movement.
