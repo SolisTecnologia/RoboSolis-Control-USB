@@ -13,7 +13,6 @@ Several programming languages can be used to connect via API.
 # Components
 
 * Main structure in aluminum
-* Removable fairing with magnetic attachment points
 * Robot Control Driver
 * Raspberry Pi 4B board <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg">
 * 2x NEMA-23 Stepper Motors
@@ -66,7 +65,7 @@ For more information about the commands used, check the Robot Commands Reference
 ![](https://github.com/SolisTecnologia/SoBot-USB-Control/blob/master/png/Flowchart_USB_Control.png)
 
 # Reference Link
-[SolisTecnologia website](https://solistecnologia.com/produtos/robotsingle)
+[SolisTecnologia website](https://www.solistecnologia.com.br/produtos/estacoes_sobot)
 
 # Please Contact Us
 If you have any problem when using our robot after checking this tutorial, please contact us.
